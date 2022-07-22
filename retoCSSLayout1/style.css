@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: teal;
+}
+
+nav {
+  background-color: tomato;
+}
+
+main {
+  background-color: lightblue;
+}
+
+aside {
+  background-color: orange;
+}
+
+footer {
+  background-color: lightgreen;
+}

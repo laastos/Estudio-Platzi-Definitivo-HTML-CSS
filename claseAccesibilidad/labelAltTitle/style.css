@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 35rem;
+}
+main {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5rem;
+  width: 80%;
+  height: 10rem;
+}

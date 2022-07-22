@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images</title>
+</head>
+<body>
+  <main>
+    <div class="picture">
+      <img src="https://snapcreek.com/wp-content/uploads/blog-large-site-dinosaur.jpg" alt="Dinosaurio">
+    </div>
+    <picture>
+      <source media="(min-width: 1000px)" srcset="https://m.media-amazon.com/images/I/81KfnFPvj7L._AC_SL1500_.jpg">
+      <source media="(min-width: 800px)" srcset="https://www.thoughtco.com/thmb/yD7zgVC53MSCLodooWZVcQAaVdw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5661612684_04c8b59fe6_o-5c4bcb6f46e0fb00014a2b11.jpg">
+      <img src="https://snapcreek.com/wp-content/uploads/blog-large-site-dinosaur.jpg" alt="Dinosaurio">
+    </picture>
+  </main>
+</body>
+</html>
